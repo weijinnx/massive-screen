@@ -12,6 +12,8 @@ cluster loading data for us. So, I used concurrent  loading to get all data fast
 Service interface has like base service interface with one method `Name()` and
 Clusters Service should implement base one and has its own methods.
 
+Also, we could do 2 docker apps instead of running http servers concurrently.
+
 ### Q2 - Suppose you have the high-level task of refactoring a module within a project to preserve the existing functionality and add new features. What steps will you take to plan and implement this change?
 
 As for as I understood, I need to split my work from regular development process
